@@ -9,8 +9,8 @@ header {
   button {
     background: $primaryBtn;
   }
-  &:hover {
-    background: red;
+  &::after {
+    content: "Helloo";
   }
 }
 
