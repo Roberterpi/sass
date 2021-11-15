@@ -5,4 +5,13 @@ header {
   background: lightblue;
   display: flex;
   justify-content: center;
+  color: $textColor;
+}
+
+header button {
+  background: $primaryBtn;
+}
+
+.contact button {
+  background: $primaryBtn;
 }
