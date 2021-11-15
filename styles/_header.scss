@@ -1,4 +1,5 @@
 @mixin flexCenter {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,13 +7,16 @@
 
 
 header {
+
+  @include flexCenter();
+
   background: lightblue;
   height: 100vh;
   color: $textColor;
   button {
     background: $primaryBtn;
-  }
-  &::after {
-    content: "Helloo";
+    &::after {
+      content: "Helloo";
+    }
   }
 }
