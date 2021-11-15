@@ -11,4 +11,8 @@ header button, .contact button {
 header button::after, .contact button::after {
   content: "Helloo";
 }
+
+.contact {
+  background: lightcoral;
+}
 /*# sourceMappingURL=style.css.map */
